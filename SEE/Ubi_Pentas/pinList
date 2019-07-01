@@ -1,0 +1,11 @@
+dhtI  DHT(Indoor)   :D2       -V1 /V2   (Humid/Temp)      H
+dhtO  DHT(Outdoor)  :D4,      -V3 /V4   (Humid/Temp)      H
+motF  Motor(Fan)    :D3,      -V13/V14  (Speed/Mode)      C
+ledR  LEDbar(Red)   :D5,      -V5
+ledG  LEDbar(Green) :D6,      -V6
+ledB  LEDbar(Blue)  :D7,      -V7
+ledA  LEDbar(alpha)           -V0 /V8   (Mode/Light)      H/C
+
+motX  Motor(Window) :D13/D12, -V11/V12  (Mode/Degree)     H
+motY  Motor(FanY)   :D11/D10, -V10
+motZ  Motor(FanZ)   :D9 /D8,  -V9
